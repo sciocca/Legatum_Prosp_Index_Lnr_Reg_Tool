@@ -90,11 +90,11 @@ def multi_linear_regression(type, elements):
         temp_x = temp_df['score_2019']
         l2.append(temp_x)
         temp_y = temp_df['y_var']
-    column_n = column_names[:len(l2)]
+    #column_n = column_names[:len(l2)]
     result = pd.DataFrame.from_dict(map(dict,l2))
     result = result.transpose()
-    result.columns = column_n
-    temp_x = result[column_n]
+    result.columns = elements
+    temp_x = result[elements]
     temp_model = sm.OLS(temp_y, temp_x).fit()
     print_out_model(temp_model, elem)
     return
