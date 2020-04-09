@@ -2,6 +2,8 @@
  Using the Legatum Prosperity Index to preform Linear Regression Analysis>
  This tool can preform linear regression and multilinear regression against any indicators, element, or pillar in the Legatum Index.
  Instructions are within the program. This tool is not designed to handle inpercise entries well so please enter things with percision.
+ 
+ For questions: sciocca@stevens.edu
 
 Pillars:
 Economic Quality, Education, Enterprise Conditions, Governance, Health, Investment Environment, Living Conditions, Market Access and Infrastructure, Natural Environment, Personal Freedom, Safety and Security, Social Capital
