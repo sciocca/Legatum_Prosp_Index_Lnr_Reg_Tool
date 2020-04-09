@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 #Legatum Index Linear Regression Tool: By Samuel Ciocca
 #Ver. 1.0
+#For questions: sciocca@stevens.edu
 
 
 #Define dataframes based on csv files
